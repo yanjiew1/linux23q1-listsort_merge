@@ -96,7 +96,7 @@ int main(void)
 	int count;
 	int nums = 1000000;
 
-	srand((uintptr_t)&main ^ time(NULL));
+	srand(1050);
 
 	test_t tests[] = {
 			   { list_sort_old, "list_sort_old" },
