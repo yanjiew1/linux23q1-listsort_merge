@@ -1,7 +1,7 @@
 # Evaluate performance of merge algorithm in Linux kernel's list_sort
 
 This repository contains code to test performance of merge algorithm.
-The result is that the performance of original merge algoirhm is better than the new one.
+The result is that the performance of original merge algoirhm is better than the new one purposed by me.
 
 This is my experiment environment:
 
