@@ -69,20 +69,7 @@ Therefore, `list_sort_new` is not faster than `list_sort_old`.
 It is performed with Turbo Boost and SMT disabled.
 The PRNG seed, srand, is set to a fixed value `1050` to make sure the test is deterministic.
 
-The result is:
-
-```
-==== Testing list_sort_old ====
-  Elapsed time:   932879
-  Comparisons:    18687074
-  List is sorted
-==== Testing list_sort_new ====
-  Elapsed time:   968952
-  Comparisons:    18687074
-  List is sorted
-```
-
-The result of perf:
+The result:
 
 list_sort_old
 ```
