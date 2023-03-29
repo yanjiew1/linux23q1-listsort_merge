@@ -101,6 +101,7 @@ int main(void)
 	test_t tests[] = {
 			   { list_sort_old, "list_sort_old" },
 			   { list_sort_new, "list_sort_new" },
+			   { list_sort_new2, "list_sort_new2" },
 			   { NULL, NULL } },
 	       *test = tests;
 

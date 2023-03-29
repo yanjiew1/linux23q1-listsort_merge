@@ -8,3 +8,4 @@ typedef int (*list_cmp_func_t)(void *,
 
 void list_sort_old(void *priv, struct list_head *head, list_cmp_func_t cmp);
 void list_sort_new(void *priv, struct list_head *head, list_cmp_func_t cmp);
+void list_sort_new2(void *priv, struct list_head *head, list_cmp_func_t cmp);

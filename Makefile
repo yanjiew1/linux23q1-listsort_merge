@@ -3,7 +3,8 @@ CFLAGS = -O2
 
 all: main
 
-OBJS := list_sort_old.o list_sort_new.o main.o
+OBJS := list_sort_old.o list_sort_new.o \
+		list_sort_new2.o main.o
 
 deps := $(OBJS:%.o=.%.o.d)
 
